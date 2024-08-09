@@ -1,0 +1,412 @@
+h3 {
+  font-size: 70px;
+  text-align: center;
+  user-select: none;
+}
+p {
+  user-select: none;
+}
+body {
+  
+  display: flex;
+  margin: 0;
+  padding:0;
+  background: url(img/background/2.png);
+  background-size: cover;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  justify-content: center;
+  align-items: center;
+}
+#counterr{
+  font-family: "Lilita One", sans-serif;
+  font-style: normal;
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  position: relative;
+  z-index: 1;
+  user-select: none;
+  top: 145px;
+  margin: 0vh;
+  left: 0%;
+}
+#cbut {
+  position: fixed;
+  display: flex;
+  top: 35%
+}
+#clbut {
+  width: 300px;
+  height: 246px;
+  border: none;
+  background-image: url(img/icon.png);
+  background-size: cover;
+  background-color: transparent;
+}
+#clbut:active {
+  transform: scale(0.9);
+  transition: all 0.3s;
+}
+#rank {
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  display: flex;
+  position: fixed;
+  top: 133px;
+  margin: 0vh;
+  left: 2%;
+}
+#box1 {
+  width: 80%;
+  height: 60px;
+  border-radius: 15px;
+  background-color: black;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  vertical-align: middle;
+  display: flex;
+  z-index: 0;
+  top: 140px;
+  margin: 0vh;
+  left: 10%;
+}
+.butt {
+  width: 75px;
+  height: 75px;
+  background-size: cover;
+  background-color: transparent;
+  display: inline-block;
+  border: none;
+  user-select: none;
+}
+#sq {
+  width: 76px;
+  height: 76px;
+  border-radius: 15px;
+  background-color: white;
+  display: flex;
+  position: fixed; 
+  bottom: 1%;
+  margin-bottom: 0.5%;
+  margin-left: 0.6%;
+  background: rgba(0, 0, 0, 0.5);
+}
+#but1 {
+  background-image: url(img/but1.png);
+  transform: translate(4%, 4%);
+}
+#but1:active {
+  transform: scale(0.8);
+  transition: all 0.1s;
+}
+#but2 {
+  background-image: url(img/but2.png);
+  transform: translate(4%, 4%);
+}
+#but2:active {
+  transform: scale(0.8);
+  transition: all 0.2s;
+}
+#but3 {
+  background-image: url(img/but3.png);
+  transform: translate(4%, 4%);
+}
+#but3:active {
+  transform: scale(0.8);
+  transition: all 0.2s;
+}
+#but4 {
+  background-image: url(img/but4.png);
+  transform: translate(4%, 4%);
+}
+#but4:active {
+  transform: scale(0.8);
+  transition: all 0.2s;
+}
+#but5 {
+  background-image: url(img/but5.png);
+  transform: translate(4%, 4%);
+}
+#but5:active {
+  transform: scale(0.8);
+  transition: all 0.2s;
+}
+.rectangle {
+  width: 380px;
+  height: 80px;
+  border-radius: 15px;
+  background-color: white;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  position: fixed; 
+  bottom: 1%;
+}
+#nbar {
+  
+}
+#gems {
+  width: 40%;
+  height: 30px;
+  border-radius: 15px;
+  background-color: black;
+  background-size: cover;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 60px;
+  margin: 0vh;
+  left: 1%;
+}
+#gemsimg {
+  background-image: url(img/gems.png);
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  position: fixed;
+  top: 60px;
+  margin: 0vh;
+  left: 1%;
+}
+#gemss {
+  font-family: "Lilita One", sans-serif;
+  font-style: normal;
+  font-size: 23px;
+  text-align: center;
+  color: white;
+  display: flex;
+  position: fixed;
+  top: 60px;
+  margin: 0%;
+  left: 10%;
+}
+#mon {
+  width: 40%;
+  height: 30px;
+  border-radius: 15px;
+  background-color: black;
+  background-size: cover;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 95px;
+  margin: 0vh;
+  left: 1%;
+}
+#monimg {
+  background-image: url(img/money.png);
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  position: fixed;
+  top: 95px;
+  margin: 0vh;
+  left: 1%;
+}
+#monn {
+  font-family: "Lilita One", sans-serif;
+  font-style: normal;
+  font-size: 23px;
+  text-align: center;
+  color: white;
+  position: fixed;
+  top: 95px;
+  margin: 0%;
+  left: 10%;
+}
+#upbar {
+  width: 100%;
+  height: 55px;
+  background-color: black;
+  display: flex;
+  position: fixed;
+  top: 0%;
+  margin: 0vh;
+  left: 0%;
+}
+#avatar {
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  display: flex;
+  position: fixed;
+  top: 5px;
+  margin: 0vh;
+  left: 5px;
+}
+#name {
+  font-family: "sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  color: white;
+  position: fixed;
+  top: 2px;
+  margin: 0%;
+  left: 57px;
+  user-select: none;
+}
+#bustbar {
+  width: 180px;
+  height: 60px;
+  border-radius: 15px;
+  background-color: white;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  position: fixed; 
+  right: 2%;
+  bottom: 93px;
+}
+#boost1 {
+  background-image: url(img/boost1.png);
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  position: fixed;
+  bottom: 95px;
+  margin: 0vh;
+  right: 26%;
+  background-color: transparent;
+  border: none;
+}
+#boost2 {
+  background-image: url(img/boost2.png);
+  width: 80px;
+  height: 80px;
+  background-size: cover;
+  position: fixed;
+  background-color: transparent;
+  border: none;
+  bottom: 95px;
+  margin: 0vh;
+  right: 10px;
+}
+.boost:active {
+  transform: scale(0.95);
+  transition: all 0.1s;
+}
+#boost11 {
+  font-family: "Lilita One", sans-serif;
+  font-style: normal;
+  font-size: 17px;
+  text-align: center;
+  color: white;
+  position: fixed;
+  bottom: 95px;
+  margin: 0%;
+  right: 28%;
+  user-select: none;
+}
+#boost22 {
+  font-family: "Lilita One", sans-serif;
+  font-style: normal;
+  font-size: 17px;
+  text-align: center;
+  color: white;
+  position: fixed;
+  bottom: 95px;
+  margin: 0%;
+  right: 6%;
+  user-select: none;
+}
+#battery {
+  font-family: "Lilita One", sans-serif;
+  font-style: normal;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  position: fixed;
+  bottom: 90px;
+  margin: 0%;
+  left: 2%;
+  user-select: none;
+}
+
+.dialog {
+  width: 80vw;
+  height: 420px;
+  border-radius: 15px;
+  background-size: cover;
+  background: rgba(0, 0, 0, 0.8);
+  position: relative;
+  bottom: -42px;
+  border: 2px solid black;
+  overflow: hidden;
+}
+.dialog21 {
+  font-family: "Lilita One", sans-serif;
+  font-style: normal;
+  font-size: 35px;
+  text-align: center;
+  color: white;
+  top: -10%;
+  position: relative;
+  user-select: none;
+}
+.dialog22 {
+  font-family: "Lilita One", sans-serif;
+  font-style: normal;
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  user-select: none;
+  position: relative;
+  top: -50px;
+}
+.dialog1 {
+  width: 80vw;
+  height: 10vh;
+  border-radius: 15px;
+  background-size: cover;
+  background: rgba(0, 0, 0, 0.9);
+  border: none;
+  font-family: "Lilita One", sans-serif;
+  display: block;
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  bottom: 30vw;
+  user-select: none;
+  background: gold;
+  border: 1px solid yellow;
+}
+.dialog2 {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+  display: flex;
+  display: relative;
+  left: 80vw;
+  bottom: 100px;
+  margin: 0;
+  border: none;
+  background-color: crimson;
+}
+.dialog1:active {
+  transform: scale(0.95);
+  transition: all 0.2s;
+}
+.bct {
+  position: relative;
+  top: 120px;
+}
+.bcd {
+  position: relative;
+  left: 272px;
+  top: -191px;
+}
+.boostimage {
+  weight: 200px;
+  height: 200px;
+  background-color: black;
+  border-radius: 15px;
+  position: relative;
+  border: 1px solid gold;
+  left: 18%;
+  top: -188px;
+}
+.imgdial {
+  weight: 100%;
+  height: 100%;
+  position: relative;
+  left: -10%;
+}
