@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/main.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+  <title>BrawlTap</title>
+</head>
+<body>
+		<span id="cbut"><button id="clbut" alt="" srcset="" ></button></span>
+ <span id="counterr" class="gem-cost">0</span>
+		  <span id="nbar" class="rectangle">
+    <span id="sq"></span>
+      <button class="butt" id="but1"></button>
+      <button class="butt" id="but2"></button>
+      <button class="butt" id="but3"></button>
+		    		<button class="butt" id="but4"></button>
+      <button class="butt" id="but5"></button>
+  </span>
+		 <div id="upb">
+		 		<span id="gems">
+      <p id="gemss">
+        42
+      </p>
+    </span>
+		  		<span id="gemsimg"></span>
+		  		<span id="mon">
+     <p id="monn">
+       3724
+     </p>
+   </span>
+   <span id="monimg"></span>
+		 </div>
+			<span id="box1">
+      		 <img src="styles/img/null.png" id="rank" alt=""></img>
+ </span>
+		<span id="upbar">
+				<span id="avatar"></span>
+				<span id="name">living</span>
+		</span>
+
+		<span id="bustbar">
+		  <button class="boost" id="boost1" onclick="bustBottom1()"></button>
+				<span id="boost11"><span id="nbust3">3</span>/3</span>
+				<button class="boost" id="boost2" onclick="bustBottom2()"></button>
+				<span id="boost22"><span id="nbust2">3</span>/3</span>
+		</span>
+
+<span id="battery"><span id="per">100</span>/100</span>
+
+
+<dialog class="dialog" id="myDialog1">
+    <!-- Содержимое диалогового окна -->
+  <p class="dialog21">Double tap</p>
+  <p class="dialog22">x2 per click for 10s </p>
+    <!-- Кнопки внутри диалога -->
+    <span class="bcd"><button class="dialog2" id="cancelButton1"><img src="styles/img/krest.png" class="imgdial"></button></span>
+    <span class="bct"><button class="dialog1" id="confirmButton1">Activate</button></span>
+   <img src="styles/img/boost1.png" class="boostimage">
+</dialog>
+
+<dialog class="dialog" id="myDialog2">
+    <!-- Содержимое диалогового окна -->
+  <p class="dialog21">Reload</p>
+  <p class="dialog22">Rapid energy recovery</p>
+    <!-- Кнопки внутри диалога -->
+    <span class="bcd"><button class="dialog2" id="cancelButton"><img src="styles/img/krest.png" class="imgdial"></button></span>
+  <span class="bct"><button class="dialog1" id="confirmButton">Activate</button></span>
+  <img src="styles/img/boost2.png" class="boostimage">
+</dialog>
+
+<script src="scripts/script.js"></script>  
+</body>
+</html>
